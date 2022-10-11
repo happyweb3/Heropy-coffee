@@ -156,6 +156,19 @@ main{
     transition: 0.4s;
     height: 663px;
 }
+.promotion a{
+    transform: translateX(2000px);
+}
+.promotion .swiper-button-prev::after,
+.promotion .swiper-button-next::after{
+    display: none
+}
+.promotion .swiper-button-prev,
+.promotion .swiper-button-next{
+    color: #333;
+    font-weight: bold;
+    
+}
 /* 버튼 클릭시 프로모션박스에 적용할 서식 */
 .hide{
     height: 0px !important;
@@ -629,7 +642,7 @@ footer .info span{
     font-size: 12px;
 }
 footer .info span:last-child{
-    margin-right: 0;;
+    margin-right: 0;
 }
 footer .copyright{
     color: #999;
